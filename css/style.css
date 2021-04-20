@@ -1,0 +1,55 @@
+body {
+  Primary Color (grey): #434348;
+  Secondary Color (goldenrod): #BF9B30;
+
+  font-family: 'Roboto Condensed', sans-serif;
+
+  h1
+    font-size: 2.75em;
+    font-weight: bold;
+    color: #BF9B30;
+
+  h2
+    font-size: 2.25em;
+    font-weight: bold;
+    color: #BF9B30;
+
+  h3
+    font-size: 1.75em;
+    font-weight: regular;
+    color: #434348;
+
+  copy
+    font-size: 1.35em;
+    font-weight: regular;
+    color: #434348;
+
+  }
+
+links
+{
+  a:  visited
+  color: #BF9B30;
+
+  a:
+  active
+  color: #434348;
+  text-decoration: underline;
+  }
+
+button
+  {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: ##c0c0c0;
+  color: #BF9B30; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  transition: 0.2s opacity;
+  }
+
+img
+  {
+  width: 50%
+  }
