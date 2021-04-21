@@ -1,55 +1,78 @@
 body {
-  Primary Color (grey): #434348;
-  Secondary Color (goldenrod): #BF9B30;
+  color: #434348;
+  font-family: 'Open sans Condensed', sans-serif;
+}
 
-  font-family: 'Roboto Condensed', sans-serif;
-
-  h1
-    font-size: 2.75em;
+  h1 {
+    font-size: 2.5em;
     font-weight: bold;
     color: #BF9B30;
+  }
 
-  h2
-    font-size: 2.25em;
+
+  h2 {
+    font-size: 2.0em;
     font-weight: bold;
     color: #BF9B30;
+    line-height: 100%;
+  }
 
-  h3
-    font-size: 1.75em;
+
+  h3 {
+    font-size: 1.5em;
     font-weight: regular;
     color: #434348;
+  }
 
-  copy
+body {
     font-size: 1.35em;
     font-weight: regular;
     color: #434348;
-
+    line-height: 175%;
   }
 
-links
-{
-  a:  visited
-  color: #BF9B30;
+  a:visited {
+    color: #BF9B30;
+    text-decoration: underline;
+  }
 
-  a:
-  active
-  color: #434348;
-  text-decoration: underline;
+  a:active {
+    color: #434348;
+    text-decoration: underline;
+
+  }
+  a:hover,
+  a:focus {
+    color: #53868b;
+    text-decoration: underline;
   }
 
 button
   {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: ##c0c0c0;
+  c
   color: #BF9B30; /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #994c30; /* width of the border, type, color */
   transition: 0.2s opacity;
-  }
+}
 
-img
-  {
+img {
   width: 50%
-  }
+}
+
+#my-hero {/*class selector*/
+  background-color: #cdc0b0;
+  color: #53868b
+  text-align: right;
+}
+
+.my-hero {/*class selector*/
+  background-color: #cdc0b0;
+  color: #53868b
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  text-align: right;
+}
